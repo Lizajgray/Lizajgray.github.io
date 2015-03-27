@@ -6,6 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  font-family: 'Carrois Gothic', sans-serif;
 }
 
 .portfolio-item {
@@ -14,4 +15,40 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+  font-size: 37px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:hover {
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  width: 34px;
+  background-color: #000000;
+}
+
+.navbar-default .navbar-header {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+  width: 50%;
+  margin-left: 50%;
+  background-color: #FFFFFF;
 }

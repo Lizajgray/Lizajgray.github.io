@@ -54,6 +54,7 @@ footer {
   margin-left: 50%;
   background-color: #FFFFFF;
   z-index: 1;
+ opacity: 0.95;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -61,8 +62,14 @@ color: #000000;
 font-size: 20px;
 text-transform: uppercase;
 }
-  /*new style */
 
+ .col-md-6 .img-responsive:hover {
+display: block;
+opacity: 0.5;
+z-index: 100;
+transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
 
 
 /*end new style */

@@ -57,6 +57,14 @@ footer {
  opacity: 0.95;
 }
 
+.navbar-default, .navbar-default > .container, .navbar-default .navbar-collapse.in {
+  height: 100%;
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: 100%;
+}
+
 .navbar-default .navbar-nav>li>a {
 color: #000000;
 font-size: 20px;
@@ -70,6 +78,7 @@ z-index: 100;
 transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
+
 
 
 /*end new style */
@@ -127,4 +136,9 @@ transition: all 0.3s ease-in-out;
 
   .page-template-home .featured-box:hover .btn-default, .page-template-home .featured-box.hover .btn-default {
   background: #FFFFFF;
+}
+
+@media (min-width: 768px)
+.container {
+  width: 600px;
 }

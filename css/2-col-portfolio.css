@@ -57,9 +57,9 @@ footer {
  opacity: 0.95;
 }
 
-/*.navbar-default, .navbar-default > .container, .navbar-default .navbar-collapse.in {
+.navbar-default, .navbar-default > .container, .navbar-default .navbar-collapse.in {
   height: 100%;
-}*/
+}
 
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
